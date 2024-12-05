@@ -172,6 +172,10 @@ margin-top: 48px;
     background-color: #404bbf;
     color: #F4F4FD;
 }
+.content-block{
+    gap: 24px;
+    padding: 120px 0; 
+}
 .contentblock{
     text-align: center;
     background-color: #FFFFFF;
@@ -292,7 +296,6 @@ padding: 120px 0;
         height: 1px;
         padding: 0;
         margin: -1px;
-        overflow: hidden;
         clip: rect(0, 0, 0, 0);
         white-space: nowrap; /* Запобігає переносу тексту */
         border: 0;
