@@ -221,8 +221,8 @@ gap: 24px;
 .team-item_first{
     border-radius: 0px 0px 4px 4px;
  }
-    .keriv-pos{
-        padding: 32px 0
+.keriv-pos{
+    padding: 32px 0
     }
 .content-item-ourteam{
     font-size: 36px;
@@ -232,6 +232,16 @@ gap: 24px;
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px; 
+    margin-top: 120px;
+}
+.team-listli{
+    row-gap: 48px; 
+}
+.container-team{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+    margin-bottom: 8px
 }
 .our-team-posiotion{
     font-size: 16px;
@@ -251,6 +261,9 @@ gap: 24px;
     text-align: center; 
     
 }
+.name-app{
+    padding: 32px 16px
+}
 .our-team-list{
     display: flex;
     flex-wrap: wrap;
@@ -258,10 +271,13 @@ gap: 24px;
 }
 .our-portfolio-section{
     text-align: center;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .footer-section{
     
     background-color: #2E2F42;
+    padding: 100px 0;
     
 }
 .footer-text{
@@ -273,4 +289,16 @@ gap: 24px;
 .span-footer{
     color: #F4F4FD;
    
+}
+.logo-footer{
+    display: inline-block; 
+    margin-bottom: 16px; 
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
