@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,9 @@
   <body>
 
     <header class="header-block">
+      <div class="container header-container">
       <nav class="nav-block">
-        <a class="logo" href="">Web<span class="span">Studio</span></a>
+        <a class="logo header-logo" href="">Web<span class="span">Studio</span></a>
         <ul class="nav-menu">
           <li><a href="./index.html" class="contact-link">Studio</a></li>
           <li><a href="" class="contact-link">Portfolio</a></li>
@@ -27,22 +29,25 @@
       </nav>
       <!----Address block-->
       <address class="address">
-        <ul>
+        <ul class="address-list">
           <li><a class="contact-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="contact-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+    </div>
     </header>
 <!--------First block-->
     <main>
-      <section class="first-block">
+      <section class="first-block ">
+        <div class="container"></div>
         <h1 class="main-text">Effective Solutions for Your Business</h1>
 
         <button class="buttom-main-link" type="button">Order Service</button>
       </section>
     
 <!------Second block-->
-      <section class="contetn-block">
+      <section class="ontetn-block">
+        <div class="container">
         <h2 hidden class="">Content</h2>
         <ul class="contentblock">
           <li>
@@ -78,10 +83,12 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       
       <!------Third Block -->
       <section class="our-team-block">
+        <div class="container">
         <h2 class="content-item-ourteam">Our Team</h2>
         <ul class="team-menu">
           <li class="team-item_first">
@@ -105,12 +112,14 @@
             <p class="our-team">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
    
     <!----Forth Section-->
     <section class="portfolio-section">
+      <div class="container">
       <h2 class="content-item-ourteam">Our Portfolio</h2>
-      <ul>
+      <ul class="our-team-list">
           <li>
             <img src="./images/app.jpg" alt="Banking App" width="360"  />
             <h3 class="content-item">Banking App</h3>
@@ -141,15 +150,18 @@
               <p class="our-team">Marketing</p>
             </li>
       </ul>
+    </div>
     </section>
   </main>
 <!----Footer section-->
     <footer class="footer-section">
+      <div class="container">
       <a href="" class="logo">Web<span class="span-footer">Studio</span></a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>

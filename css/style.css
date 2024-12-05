@@ -8,10 +8,34 @@ a {
     text-decoration: none;
     }
     
-    ul {
+    ul,
+    ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
     }
+    h1, h2, h3, h4, h5, h6, p{
+        margin: 0;
 
+    }
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* HEADER */
+.header-block{
+
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.nav-block{
+    display: flex;
+    align-items: center;
+}
 .logo{
     text-align: left;
     font-family: "Raleway", sans-serif;
@@ -23,30 +47,57 @@ a {
     color: #4d5ae5;
     
 }
+.header-logo{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
+}
+.nav-menu{
+    display: flex;
+    gap: 40px
+;
+}
 .span{
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+
 }
 .contact-link{
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+  
 }
 .contact-link:hover,
 .contact-link:focus{
     color: #404bbf;
 
 }
+.address-list{
+    display: flex;
+ align-items: center;
+     gap: 40px;
+ 
+ }
+ .address{
+    font-style: normal;
+    margin-left: auto;
+  
+}
 .contact-address-link{
+display: block;
+padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    align-items: center;
 }
 .contact-address-link:hover,
 .contact-address-link:focus{
@@ -54,11 +105,10 @@ a {
 }
 .nav-block{
     text-align: left;
-    background-color: #E7E9FC;
+    background-color: #FFFFFF;
 }
-.address{
-    font-style: normal;
-}
+
+
 .contact-address{
     text-align: right;
     font-style: normal;
@@ -104,7 +154,7 @@ cursor: pointer;
 .contentblock{
     text-align: center;
     background-color: #FFFFFF;
-
+display: flex;
 }
 .content-item{
     font-weight: 500;
@@ -125,6 +175,10 @@ cursor: pointer;
 .our-team-block{
   background-color: #F4F4FD;
     text-align: center;
+}
+.team-menu{
+    display: flex;
+    gap: 24px;
 }
 .content-item-ourteam{
     font-size: 36px;
@@ -149,6 +203,12 @@ cursor: pointer;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
+    
+}
+.our-team-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 .our-portfolio-section{
     text-align: center;
