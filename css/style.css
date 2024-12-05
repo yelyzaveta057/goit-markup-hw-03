@@ -121,22 +121,33 @@ padding: 24px 0;
 .team-item_first{
     background-color: #FFFFFF;
 }
+.img-thirdblock{
+    display: block;
+}
 .first-block{
     background-color: #2E2F42;
     text-align: center;
     line-height: 1.07;
+    padding-left: 188px;
+    padding-bottom: 188px;    
+ 
+   
 }
 .main-text{
+
     font-family: "Roboto", sans-serif;
-    text-align: center;
+
     font-size: 56px;
     letter-spacing: 0.02em;
     color: #fff;
 
+    text-align: center;
+ 
+    
 }
 .buttom-main-link{
-    font-family: "Roboto", sans-serif;
     text-align: center;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
 background-color: #4d5ae5;
 font-size: 16px;
@@ -145,17 +156,37 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 
+min-width: 169px;
+height: 56px;
+border: none;
+display: block;
+border-radius: 4px;
+margin-top: 48px;
+
+
+
+
 }
 .buttom-main-link:hover,
 .buttom-main-link:focus{
     background-color: #404bbf;
-    color: #404bbf;
+    color: #F4F4FD;
 }
 .contentblock{
     text-align: center;
     background-color: #FFFFFF;
 display: flex;
+padding-top: 120px;
+padding-bottom: 120px;
+gap: 24px;
+
+
 }
+.content-list{
+    width: calc((100% - 72px) / 4)
+
+}
+
 .content-item{
     font-weight: 500;
     line-height: 1.2;
@@ -163,23 +194,36 @@ display: flex;
     font-size: 20px;
     color: #2E2F42;
     background-color: #FFFFFF;
+    margin-bottom: 8px;
+    text-align: center; 
 }
+
 .content-text{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+    text-align: left;
+    width: 264px;
     
 }
 .our-team-block{
   background-color: #F4F4FD;
     text-align: center;
+    padding: 120px 0;
 }
 .team-menu{
     display: flex;
     gap: 24px;
 }
+.team-item_first{
+    border-radius: 0px 0px 4px 4px;
+ }
+    .keriv-pos{
+        padding: 32px 0
+    }
 .content-item-ourteam{
     font-size: 36px;
     line-height: 1.11;
@@ -187,6 +231,7 @@ display: flex;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px; 
 }
 .our-team-posiotion{
     font-size: 16px;
@@ -203,6 +248,7 @@ display: flex;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
+    text-align: center; 
     
 }
 .our-team-list{
